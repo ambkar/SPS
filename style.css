@@ -37,38 +37,74 @@ body {
 }
 
 .content-block {
-    background-color: #7BAEFB;
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     margin: 0 auto;
     text-align: center;
     align-items: center;
 }
 
 .text {
-    font-size: 3vw;
+    margin-bottom: 2vw;
+    font-size: 10vw;
     font-family: Wadik;
     background: var(--gradient);
     -webkit-background-clip: text;
     color: transparent;
+    text-transform: uppercase;
 }
 
-h3 {
+.text2 {
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    font-size: 5vw;
     font-family: Wadik;
+    text-transform: uppercase;
+}
+.text3 {
+    margin-bottom: 8vw;
+    font-size: 4.2vw;
+    font-family: Mazzard-M;
+    color: var(--blue);
+    text-transform: uppercase;
 }
 
 img {
-    margin-left: 10%;
-    max-width: 80%;
+    margin-top: auto;
+    margin-left: 7%;
+    max-width: 95%;
     height: auto;
 }
 
 @media (min-width: 1024px) {
     .content-block {
         margin: 0 auto;
-        padding: 0;
+        padding: 0px 20px 20px 20px;
         width: 450px;
+    }
+    .text {
+        margin-bottom: 1vw;
+        font-size: 3vw;
+        font-family: Wadik;
+        background: var(--gradient);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+    }
+    .text2 {
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        font-size: 1.5vw;
+        font-family: Wadik;
+        text-transform: uppercase;
+    }
+    .text3 {
+        margin-bottom: 4vw;
+        font-size: 1.25vw;
+        font-family: Mazzard-M;
+        color: var(--blue);
+        text-transform: uppercase;
     }
 }
