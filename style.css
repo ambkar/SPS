@@ -1,45 +1,54 @@
-@media (max-width: 1023px) {
-    body{
-        background-color: #010101;
-    }
-    .img{
-        width: 100%;
-        height: 100%;
-    }
-    .bac{
-        text-align: center;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        justify-self: center;
-        justify-items: center;
-        justify-content: center;
-        place-items: center;
-        width: 100%;
-        height: auto;
-    }
+@font-face {
+    font-family: 'Wadik';
+    src: url('Wadik.otf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
 }
-@media (min-width: 1024px){
-    body{
-        background-color: #010101;
-    }
-    .img{
-        width: 100%;
-        height: 100%;
-    }
-    .bac{
-        float: center;
-        text-align: center;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        justify-self: center;
-        justify-items: center;
-        justify-content: center;
-        place-items: center;
-        left:50%;
-        right: 50%;
-        width: 450px;
-        height: auto;
-    }
+@font-face {
+    font-family: 'Mazzard-R';
+    src: url('MazzardH-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+@font-face {
+    font-family: 'Mazzard-M';
+    src: url('MazzardH-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mazzard-S';
+    src: url('MazzardH-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Wadik;
+    background-color: #010101;
+    margin: 0;
+  }
+
+  .content-block {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+@media (min-width: 1024px) {
+    .content-block {
+      max-width: 450px;
+    }
+  }
+
+  h1, h2 {
+    color: #333;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
