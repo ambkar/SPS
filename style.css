@@ -37,6 +37,7 @@ body {
 }
 
 .content-block {
+    background-color: #7BAEFB;
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
@@ -46,7 +47,8 @@ body {
     align-items: center;
 }
 
-h1 {
+.text {
+    font-size: 3vw;
     font-family: Wadik;
     background: var(--gradient);
     -webkit-background-clip: text;
@@ -65,6 +67,8 @@ img {
 
 @media (min-width: 1024px) {
     .content-block {
+        margin: 0 auto;
+        padding: 0;
         width: 450px;
     }
 }
