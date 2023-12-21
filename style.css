@@ -49,8 +49,16 @@ body {
     }
 }
 
-h1, h2 {
+h1 {
     color: #333;
+}
+
+h2 {
+    background: linear-gradient(90deg, #CEFA2E -6.16%, #E2FB85 50.83%, #CEFA2E 107.83%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 img {
