@@ -24,37 +24,40 @@
 }
 
 body {
-    font-family: Wadik;
+    
     background-color: #010101;
     margin: 0;
 }
 
-.content-container {
+.content-block {
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
     margin: 0 auto;
     text-align: center;
-}
-
-@media (min-width: 1024px) {
-    .content-container {
-        width: 450px;
-    }
+    align-items: center;
 }
 
 h1 {
-    color: linear-gradient(90deg, rgba(206,250,46,1) 0%, rgba(226,251,133,1) 50%, rgba(206,250,46,1) 100%);
-}
-
-h2 {
+    font-family: Wadik;
     background: linear-gradient(90deg, rgba(206,250,46,1) 0%, rgba(226,251,133,1) 50%, rgba(206,250,46,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
 }
 
+h2 {
+    font-family: Wadik;
+    color: #FFF6FC;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+
+@media (min-width: 1024px) {
+    .content-block {
+        width: 450px;
+    }
 }
