@@ -28,34 +28,32 @@ body {
     font-family: Wadik;
     background-color: #010101;
     margin: 0;
-  }
+}
 
-  .content-block {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+.content-container {
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
     margin: 0 auto;
-  }
+    text-align: center;
+}
 
 @media (min-width: 1024px) {
-    .content-block {
+    .content-container {
+        width: 450px;
+        box-sizing: border-box;
+        padding: 20px;
+        margin: 0 auto;
         text-align: center;
-        align-items: center;
-        align-content: center;
-        max-width: 450px;
     }
-  }
+}
 
-  h1, h2 {
+h1, h2 {
     color: #333;
-  }
+}
 
-  img {
+img {
     max-width: 100%;
     height: auto;
-  }
+}
