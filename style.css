@@ -185,6 +185,7 @@ img {
   }
   
   .scrolling {
+    margin-top: 1vw;
     color: var(--black);
     text-transform: uppercase;
     will-change: transform;
@@ -193,6 +194,7 @@ img {
     font-size: 4.2vw;
     animation: marquee 9s linear infinite;
     display: inline-block;
+    padding-right: 10px;
   }
   
   @keyframes marquee {
@@ -341,6 +343,7 @@ img {
       }
       
       .scrolling {
+        margin-top: 0.3vw;
         color: var(--black);
         text-transform: uppercase;
         will-change: transform;
@@ -349,6 +352,7 @@ img {
         font-size: 1.25vw;
         animation: marquee 9s linear infinite;
         display: inline-block;
+        padding-right: 10px;
       }
       
       @keyframes marquee {
