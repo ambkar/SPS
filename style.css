@@ -156,7 +156,7 @@ img {
     position: relative;
     background: var(--blue);
     color: var(--black);
-    padding: 5vw 21vw 4vw 21vw;
+    padding: 5vw 24.657vw 4vw 24.657vw;
     text-transform: uppercase;
     text-decoration: none;
     border: none;
@@ -315,7 +315,7 @@ img {
         position: relative;
         background: var(--blue);
         color: var(--black);
-        padding: 1.5vw 7vw 1.1vw 7vw;
+        padding: 1.5vw 7.562vw 1.1vw 7.562vw;
         text-transform: uppercase;
         text-decoration: none;
         border: none;
