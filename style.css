@@ -214,14 +214,14 @@ img {
 
 .about-work{
     line-height: 1.5em;
-    margin-top: 8vw;
+    margin: 8vw 2vw 0vw 2vw;
     font-family: Mazzard-S;
     letter-spacing: 0.1em;
     font-size: 2.5vw;
     position: relative;
     background: var(--gradient);
     color: var(--black);
-    padding: 7vw 8vw 6vw 8vw;
+    padding: 7vw 6vw 6vw 6vw;
     text-transform: uppercase;
     text-decoration: none;
     border: none;
