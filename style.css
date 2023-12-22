@@ -26,11 +26,16 @@
 :root{
     --white: #FFF6FC;
     --black: #010101;
+    --black-sh: rgba(1, 1, 1, 0.5);
     --blue: #7BAEFB;
+    --green: rgba(206,250,46,0.85);
+    --green2: rgb(151, 187, 21);
+    --gradient2: linear-gradient(90deg, rgb(151, 187, 21) 0%, rgb(204, 225, 125) 50%, rgba(151, 187, 21) 100%);
     --gradient: linear-gradient(90deg, rgba(206,250,46,1) 0%, rgba(226,251,133,1) 50%, rgba(206,250,46,1) 100%);
 }
 
 body {
+    display: flex;
     color: var(--white);
     background-color: var(--black);
     margin: 0;
@@ -73,11 +78,51 @@ body {
 
 img {
     margin-top: auto;
-    margin-left: 7%;
-    max-width: 95%;
+    margin-left: 5vw;
+    max-width: 90vw;
     height: auto;
 }
 
+.discount-button {
+    top: -12.5vw;
+    font-family: Mazzard-S;
+    letter-spacing: 0.2em;
+    font-size: 4.2vw;
+    position: relative;
+    background: var(--gradient);
+    color: var(--black);
+    padding: 5vw 15vw 4vw 15vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 4.5vw;
+    transition: background 0.3s ease;
+    box-shadow: 0 0.08vw 2vw var(--green);
+  }
+
+  .discount-button:hover {
+    background: var(--gradient2);
+    box-shadow: 0 0.08vw 2vw var(--green2);
+  }
+
+  .start-badge {
+    font-family: Mazzard-S;
+    position: absolute;
+    top: -25%;
+    left: 25%;
+    transform: rotate(-1.9deg);
+    background-color: var(--white);
+    color: var(--black);
+    padding: 1.25vw 4vw 1.2vw 4vw;
+    font-size: 2.5vw;
+    letter-spacing: 0.2em;
+    border-radius: 1.2vw;
+    box-shadow: 0 1.6vw 6vw var(--black-sh);
+  }
+  .f{
+    margin-top: 2vw;
+    color: #7BAEFB;
+  }
 @media (min-width: 1024px) {
     .content-block {
         margin: 0 auto;
@@ -94,7 +139,7 @@ img {
         text-transform: uppercase;
     }
     .text2 {
-        margin-top: 2vw;
+        margin-top: 3vw;
         margin-bottom: 2vw;
         font-size: 1.5vw;
         font-family: Wadik;
@@ -107,4 +152,54 @@ img {
         color: var(--blue);
         text-transform: uppercase;
     }
+    img {
+        margin-top: auto;
+        margin-left: 2.4vw;
+        max-width: 25vw;
+        height: auto;
+    }
+    .discount-button {
+        top: -2.6vw;
+        font-family: Mazzard-S;
+        letter-spacing: 0.1em;
+        font-size: 1.25vw;
+        position: relative;
+        background: var(--gradient);
+        color: var(--black);
+        padding: 1.5vw 5vw 1.1vw 5vw;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: none;
+        border-radius: 1.6vw;
+        transition: background 0.3s ease;
+        box-shadow: 0 0.03vw 0.5vw var(--green);
+      }
+    
+      .discount-button:hover {
+        background: var(--gradient2);
+        box-shadow: 0 0.03vw 0.5vw var(--green2);
+      }
+    
+      .start-badge {
+        font-family: Mazzard-S;
+        position: absolute;
+        top: -25%;
+        left: 25%;
+        transform: rotate(-1.9deg);
+        background-color: var(--white);
+        color: var(--black);
+        padding: 0.35vw 1vw 0.35vw 1vw;
+        font-size: 0.8vw;
+        letter-spacing: 0.1em;
+        border-radius: 0.4vw;
+        box-shadow: 0 0.8vw 2vw var(--black-sh);
+      }
+      .f{
+        margin-top: 2.3vw;
+        color: #7BAEFB;
+      }
 }
+
+
+
+
