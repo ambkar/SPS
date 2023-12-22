@@ -221,11 +221,11 @@ img {
     position: relative;
     background: var(--gradient);
     color: var(--black);
-    padding: 7vw 6vw 6vw 6vw;
+    padding: 6vw 6vw 5vw 6vw;
     text-transform: uppercase;
     text-decoration: none;
     border: none;
-    border-radius: 1.6vw;
+    border-radius: 4.5vw;
     transition: background 0.3s ease;
     box-shadow: 0 0.03vw 0.5vw var(--green);
 }
@@ -447,18 +447,18 @@ img {
     position: relative;
     background: var(--gradient);
     color: var(--black);
-    padding: 3vw 2vw 2.1vw 2vw;
+    padding: 2.5vw 2vw 1.6vw 2vw;
     text-transform: uppercase;
     text-decoration: none;
     border: none;
-    border-radius: 1.6vw;
+    border-radius: 1.5vw;
     transition: background 0.3s ease;
     box-shadow: 0 0.03vw 0.5vw var(--green);
 }
 
 .elem {
     display: flex;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2vw;
     text-align: left;
     
   }
@@ -498,7 +498,7 @@ img {
     display: flex;
     align-items: flex-start; /* Выравнивание сверху */
     text-align: left;
-    margin-bottom: 2.5vw;
+    margin-bottom: 2vw;
     margin-left: 0.5vw;
   }
   
