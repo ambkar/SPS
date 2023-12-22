@@ -194,7 +194,7 @@ img {
     font-size: 4.2vw;
     animation: marquee 9s linear infinite;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 5px;
   }
   
   @keyframes marquee {
@@ -204,6 +204,12 @@ img {
     to { 
       transform: translateX(-100%);
     }
+  }
+
+  .f1{
+    margin-top: 37vw;
+    margin-bottom: 3.5vw;
+    color: #7BAEFB;
   }
 
   
@@ -352,7 +358,7 @@ img {
         font-size: 1.25vw;
         animation: marquee 9s linear infinite;
         display: inline-block;
-        padding-right: 10px;
+        padding-right: 5px;
       }
       
       @keyframes marquee {
@@ -363,6 +369,10 @@ img {
           transform: translateX(-100%);
         }
       }
-
+      .f1{
+        margin-top: 12vw;
+        margin-bottom: 3.5vw;
+        color: #7BAEFB;
+      }
 }
 
