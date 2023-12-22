@@ -212,6 +212,71 @@ img {
     color: #7BAEFB;
   }
 
+.about-work{
+    line-height: 1.5em;
+    margin-top: 8vw;
+    font-family: Mazzard-S;
+    letter-spacing: 0.1em;
+    font-size: 2.5vw;
+    position: relative;
+    background: var(--gradient);
+    color: var(--black);
+    padding: 7vw 8vw 6vw 8vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 1.6vw;
+    transition: background 0.3s ease;
+    box-shadow: 0 0.03vw 0.5vw var(--green);
+}
+
+.elem {
+    display: flex;
+    margin-bottom: 5vw;
+    text-align: left;
+    
+  }
+  
+  .number {
+    margin-right: 1.5vw; /* Уменьшил отступ между номером и текстом */
+    font-size: 4.2vw;
+    font-family: Wadik;
+    color: var(--black);
+    text-transform: uppercase;
+  }
+  
+  .number::before {
+    content: attr(data-number); /* Добавляем маркер с использованием псевдоэлемента */
+    margin-right: 0.5vw;
+  }
+
+  
+  .cont {
+    margin-left: 1vw;
+    margin-top: -0.35vw;
+    text-align: left;
+  }
+  .cont-start {
+    margin-left: 2vw;
+    margin-top: -0.35vw;
+    text-align: left;
+  }
+  
+  /* Определяем отступ у последнего элемента */
+  .elem-end {
+    display: flex;
+    align-items: flex-start; /* Выравнивание сверху */
+    text-align: left;
+    margin-bottom: 0vw;
+  }
+  .elem-start {
+    display: flex;
+    align-items: flex-start; /* Выравнивание сверху */
+    text-align: left;
+    margin-bottom: 5vw;
+    margin-left: 1vw;
+  }
+  
   
 @media (min-width: 1024px) {
     .content-block {
@@ -374,5 +439,67 @@ img {
         margin-bottom: 3.5vw;
         color: #7BAEFB;
       }
+
+.about-work{
+    font-family: Mazzard-S;
+    letter-spacing: 0.1em;
+    font-size: 0.8vw;
+    position: relative;
+    background: var(--gradient);
+    color: var(--black);
+    padding: 3vw 2vw 2.1vw 2vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 1.6vw;
+    transition: background 0.3s ease;
+    box-shadow: 0 0.03vw 0.5vw var(--green);
 }
 
+.elem {
+    display: flex;
+    margin-bottom: 2.5vw;
+    text-align: left;
+    
+  }
+  
+  .number {
+    margin-right: 1.5vw; /* Уменьшил отступ между номером и текстом */
+    font-size: 2vw;
+    font-family: Wadik;
+    color: var(--black);
+    text-transform: uppercase;
+  }
+  
+  .number::before {
+    content: attr(data-number); /* Добавляем маркер с использованием псевдоэлемента */
+    margin-right: -1vw;
+  }
+
+  
+  .cont {
+    margin-top: -0.4vw;
+    text-align: left;
+  }
+  .cont-start {
+    margin-left: 1.4vw;
+    margin-top: -0.4vw;
+    text-align: left;
+  }
+  
+  /* Определяем отступ у последнего элемента */
+  .elem-end {
+    display: flex;
+    align-items: flex-start; /* Выравнивание сверху */
+    text-align: left;
+    margin-bottom: 0vw;
+  }
+  .elem-start {
+    display: flex;
+    align-items: flex-start; /* Выравнивание сверху */
+    text-align: left;
+    margin-bottom: 2.5vw;
+    margin-left: 0.5vw;
+  }
+  
+}
