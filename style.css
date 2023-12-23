@@ -39,7 +39,7 @@ body {
     display: flex;
     color: var(--white);
     background-color: var(--black);
-    margin: 0;
+    margin-bottom: 80px;
 }
 a{
     text-decoration: none;
@@ -153,7 +153,7 @@ img {
     
   }
   .discount-button-blue {
-    top: 7.5vw;
+    top: 10.5vw;
     font-family: Mazzard-S;
     letter-spacing: 0.2em;
     font-size: 4.2vw;
@@ -311,7 +311,7 @@ img {
   
   .number2 {
     color: var(--white);
-    margin-right: 0vw; /* Уменьшил отступ между номером и текстом */
+    margin-right: 3vw; /* Уменьшил отступ между номером и текстом */
     font-size: 6vw !important;
     text-transform: uppercase;
   }
@@ -530,7 +530,7 @@ img {
   
   .number2 {
     color: var(--white);
-    margin-right: 0vw; /* Уменьшил отступ между номером и текстом */
+    margin-right: 0.5vw; /* Уменьшил отступ между номером и текстом */
     font-size: 2vw !important;
     text-transform: uppercase;
   }
@@ -583,7 +583,7 @@ img {
     font-size: 0.8vw;
     position: relative;
     color: var(--white);
-    padding: 2.5vw 2vw 1.6vw 2vw;
+    padding: 2.5vw 1.5vw 1.6vw 1.5vw;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 1.5vw;
