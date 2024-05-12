@@ -139,9 +139,9 @@ body{
     animation: marquee2 20s infinite linear;
     animation-delay: -10s;
 }
-/* .el::after{
-    content: ' Привет! Я бегущая строка Привет! Я бегущая строка Привет! Я бегущая строка Привет! Я бегущая строкаПривет! Я бегущая строка ';
-} */
+.el::after{
+    content: ' Привет! Я бегущая строка Привет! Я бегущая строка Привет! Я бегущая строка ';
+}
 @keyframes marquee1 {
     0% {
         transform: translateX(100%);
