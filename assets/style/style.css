@@ -125,6 +125,7 @@ body{
 .beg_str{
     display: flex;
     overflow-x: hidden;
+    font-size: .875rem;
 }
 .el{
     white-space: nowrap;
