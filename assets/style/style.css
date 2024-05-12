@@ -138,10 +138,10 @@ body{
     animation: marquee2 20s infinite linear;
     animation-delay: -10s;
 }
-.el::after{
+/* .el::after{
     font-size: .875rem;
     content: ' Привет! Я бегущая строка Привет! Я бегущая строка Привет! Я бегущая строка Привет! Я бегущая строкаПривет! Я бегущая строка ';
-}
+} */
 @keyframes marquee1 {
     0% {
         transform: translateX(100%);
