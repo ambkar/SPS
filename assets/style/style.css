@@ -129,7 +129,6 @@ body{
 .el{
     white-space: nowrap;
     display: inline-block;
-    font-size: .875rem;
 }
 .el1{
     animation: marquee1 20s infinite linear;
