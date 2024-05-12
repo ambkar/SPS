@@ -140,6 +140,7 @@ body{
 }
 .el::after{
     content: ' Привет! Я бегущая строка Привет! Я бегущая строка';
+    font-size: .875rem;
 }
 @keyframes marquee1 {
     0% {
