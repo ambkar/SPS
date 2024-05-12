@@ -140,7 +140,6 @@ body{
 }
 .el::after{
     content: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore. ';
-    font-size: .175rem;
 }
 @keyframes marquee1 {
     0% {
