@@ -137,7 +137,7 @@ body{
 }
 .el2{
     animation: marquee2 20s infinite linear;
-    animation-delay: -10s;
+    animation-delay: -20s;
 }
 .el::after{
     content: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore. ';
