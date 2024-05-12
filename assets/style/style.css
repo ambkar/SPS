@@ -139,8 +139,8 @@ body{
     animation-delay: -10s;
 }
 .el::after{
-    content: ' Привет! Я бегущая строка Привет! Я бегущая строка';
-    font-size: .875rem;
+    content: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore. ';
+    font-size: .175rem;
 }
 @keyframes marquee1 {
     0% {
