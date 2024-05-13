@@ -84,7 +84,6 @@ body{
 }
 
 .status-bar__container {
-
     font-weight: 100;
     grid-column: 2 / 3;
     color: var(--white);
@@ -96,7 +95,7 @@ body{
 }
 @media screen and (max-width: 767px) {
     .status-bar__container  {
-        font-size: .875rem;
+        font-size: .475rem;
     }
 }
 .status-bar__gradient.is-dark-right{
