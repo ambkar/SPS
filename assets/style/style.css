@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url(https://myfonts.ru/myfonts?fonts=wadik);
+@import url('https://myfonts.ru/myfonts?fonts=wadik');
 * {
     --bg-color: #000;
     --white: #F3EFEF;
-    --defoult-red: #F21023;
+    --defoult-red: #e61c2c;
     --Inter: "Inter", sans-serif;
     --Wadik: 'Wadik', arial;
 }
@@ -62,6 +62,8 @@ body{
 }
 
 .status-bar__container {
+
+    font-weight: 100;
     grid-column: 2 / 3;
     color: var(--white);
     align-items: center;
