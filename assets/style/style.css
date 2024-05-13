@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(https://myfonts.ru/myfonts?fonts=wadik);
 * {
     --bg-color: #000;
     --white: #F3EFEF;
     --defoult-red: #F21023;
+    --Inter: "Inter", sans-serif;
+    --Wadik: 'Wadik', arial;
 }
 
 body{
+    font-family: var(--Wadik);
     margin: 0;
     padding: 1.25rem;
     width: 100%;
@@ -25,11 +30,12 @@ body{
 
 
 .status_bar {
+    /* border: 2px solid #F3EFEF; */
     color: white;
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 10px;
-    z-index: -1;
+    z-index: 1;
     justify-content: start;
     align-items: center;
     padding-right: 2rem;
@@ -44,6 +50,7 @@ body{
 }
 
 .status-bar__title-wrapper {
+    font-family: var(--Wadik);
     grid-column: 1 / 2; 
     white-space: pre;
     align-items: center;
@@ -51,7 +58,7 @@ body{
     padding-left: 2rem;
     padding-right: 1rem;
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .status-bar__container {
@@ -76,28 +83,25 @@ body{
     position: absolute;
 }
 .status-bar__description {
-    opacity: .4;
+    opacity: .8;
+    color: var(--white);
+    white-space: nowrap;
 }
 .status-bar__company {
-    opacity: .8;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .4;
+    font-weight: 600;
     margin-left: .5rem;
+    color: var(--white);
+    white-space: nowrap;
 }
 .wg-element {
     grid-column: 3 / 4;
-    color: var(--bg-color);
 }
 
-.wg-element-wrapper.sw14{
-    min-width: 3rem;
-    display: block;
-}
-.wg-element-wrapper{
-    align-items: center;
-    width: 3rem;
-    position: relative;
-}
 .wg-button{
-    color: var(--bg-color);
+    color: var(--white);
     text-transform: uppercase;
     background-image: linear-gradient(135deg, rgba(214,163,228,0),rgba(214,163,228,.07));
     border: 1px solid rgba(255, 255, 255, .16);
@@ -105,56 +109,48 @@ body{
     justify-content: center;
     align-items: center;
     min-width: 3rem;
-    height: 2rem;
-    padding: 0 .5rem;
+    height: 100%;
+    padding: .4rem .8rem;
     font-size: .825rem;
     text-decoration: none;
-    transition: all .1s;
     position: relative;
     overflow: hidden;
 }
-.w-inline-block{
-    max-width: 100%;
-    display: inline-block;
-}
-.wg-button-text-lang{
-    align-items: center;
-    height: 2rem;
-}
 
-.beg_str{
+.marquee {
     display: flex;
     overflow-x: hidden;
-    font-size: .875rem;
-}
-.el{
+    width: 100%;
+    pointer-events: none;
+  }
+  
+  .marquee__inner-wrap {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .marquee span {
+    display: flex;
+    text-align: center;
+    color: var(--white);
     white-space: nowrap;
-    display: inline-block;
-}
-.el1{
-    animation: marquee1 20s infinite linear;
-    animation-delay: -20s;
-}
-.el2{
-    animation: marquee2 20s infinite linear;
-    animation-delay: -20s;
-}
-.el::after{
-    content: ' Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, tempore. ';
-}
-@keyframes marquee1 {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-@keyframes marquee2 {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-200%);
-    }
-}
+    padding: 0 1rem;
+    /* text-transform: uppercase; */
+  }
+  
+  .marquee__inner {
+    height: 100%;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+    animation: marquee 10s linear infinite;
+    will-change: transform;
+  }
+  
+  @keyframes marquee {
+    0%  { transform: translate(0vw, 0); }
+    100% { transform: translate(-50%, 0); }
+  }
+
+  
