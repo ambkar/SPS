@@ -95,7 +95,7 @@ body{
 }
 @media screen and (max-width: 767px) {
     .status-bar__container  {
-        font-size: .475rem;
+        font-size: .675rem;
     }
 }
 .status-bar__gradient.is-dark-right{
